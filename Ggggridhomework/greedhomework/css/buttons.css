@@ -1,0 +1,43 @@
+.button {
+    background-color: blueviolet;
+    border-radius: 12px;
+}
+.button:hover{
+    background-color: rgb(210, 30, 60);
+}
+.button--huge {
+    padding: 24px;
+    font-size: 18px;
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+    font-weight: 600;
+
+}
+
+.button--search{
+    width: 60px;height: 60px;padding: 18px;
+}
+/*button more*/
+.button-more{
+    display: flex;
+    align-items: center;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 4px;
+color: #5243C2;
+height: 44px;
+font-size: 16px;
+background: #f6f4ff;
+font-weight: 400;
+}
+.button-more:hover{
+    background: #dcd8f1;
+}
+
+.button--subscribe {
+    width: 72px;
+    height: 72px;
+    padding: 28px;
+}
